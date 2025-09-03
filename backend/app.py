@@ -24,7 +24,8 @@ ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
 # Configure CORS for React frontend
 CORS(app, 
      supports_credentials=True, 
-     origins=['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3001','https://sports-iit-bhilai-19q6a3cfn-anils-projects-4ca95623.vercel.app'],
+     origins=['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3001',
+              'https://sports-iit-bhilai-hduo-seven.vercel.app'],
      allow_headers=['Content-Type', 'Authorization'],
      methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'])
 
